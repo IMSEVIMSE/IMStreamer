@@ -1,0 +1,11 @@
+#IMSButton {
+  line-height: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #767676;
+  border: none;
+}
+
+#IMSVPlay {
+	background-color: #000;
+}
