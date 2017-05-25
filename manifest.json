@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "IMStreamer",
+  "version": "1.0",
+  "description": "Stream movies directly from browsing IMDB via VoDLocker API",
+  "icons": {
+    "96": "icons/icon@2x.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.imdb.com/*"],
+      "js": ["IMStreamer.js"],
+      "matches": ["*://*.imdb.com/*"],
+      "css": ["IMStreamer.css"]
+    }
+  ]
+
+}
