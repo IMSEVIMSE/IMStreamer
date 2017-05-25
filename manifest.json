@@ -13,6 +13,9 @@
       "js": ["IMStreamer.js"],
       "css": ["IMStreamer.css"]
     }
+  ],
+  "web_accessible_resources": [
+    "resources/*.gif"
   ]
 
 }
