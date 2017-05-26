@@ -1,6 +1,5 @@
 // Get extension URL for paths to local files
 var fullURL = chrome.runtime.getURL("/");
-//alert(temp);
 
 // Create the button and set id and class
 var IMSgetStream = document.createElement("button");
@@ -13,7 +12,7 @@ var divider = document.createElement("div");
 divider.className = 'divider';
 
 // Append (as child of div) divider and IMSButton to correct class
-var buttonAppender = document.getElementsByClassName("titleReviewBar ")[0];
+var buttonAppender = document.getElementsByClassName("plot_summary ")[0];
 buttonAppender.appendChild(divider);
 buttonAppender.appendChild(IMSgetStream);
 
@@ -58,7 +57,7 @@ var IMDBvar = URL.match("title/(.*)/");
 			IMSvideoPlayer.className = 'modal';
 
 			// Insert embedded video from vodlocker.to to modal with divs.
-			IMSvideoPlayer.innerHTML='<div class="modal-content"><span class="close">&times;</span><div id="loadingBG" align="center"><iframe src="http://vodlocker.to/embed?i=' + IMDBvar[1] + ' " width="1280" height="720" allowscriptaccess="always" allowfullscreen="true" scrolling="no" frameborder="0"></iframe></div></div>';
+			IMSvideoPlayer.innerHTML='<div class="modal-content"><span class="close">&times;</span><div id="loadingBG" align="center"><iframe src="http://vodlocker.to/embed?i=' + IMDBvar[1] + ' " width="80%" height="720" allowscriptaccess="always" allowfullscreen="true" scrolling="no" frameborder="0"></iframe></div></div>';
 			
 			// Append IMSvideoPlayer element to top of code
 			var videoAppender = document.getElementsByTagName('html')[0];
