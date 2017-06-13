@@ -11,6 +11,7 @@ The addon was not approved to be published on the Firefox addon store, therefore
 
 ## How to install
 Start by downloading the signed .xpi file for Firefox. You can either download it and then choose to open it with Firefox, or directly choose <i>Open With</i> when downloading the file.
+
 <img src="https://i.imgur.com/8XReW6h.png" alt="open_with_firefox" height="340" width="460"/>
 
 This should open a new tab asking you if you want to install <i>IMStreamer</i>. Click <i>Install</i> and the plugin should now be working with IMDB.
